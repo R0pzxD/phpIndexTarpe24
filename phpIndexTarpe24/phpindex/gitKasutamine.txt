@@ -1,0 +1,9 @@
+git init - uus repo
+git config --global user.name "Robin Tõll"
+git config --global user.email "Robintoll642@gmail.com"
+git config --global --list
+
+//ssh võti loomine
+ssh-keygen -0 -t rsa -C "email"
+//võti salvestatakse opilane/.ssh kasuta
+//id
