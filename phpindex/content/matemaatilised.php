@@ -18,3 +18,5 @@ echo $arv1."- suurendamine ühe võrra";
 echo"<br>";
 $arv1--;
 echo $arv1."- Vähendamine ühe võrra";
+echo"<br>";
+echo "<strong>Ruutjuur</strong>"
