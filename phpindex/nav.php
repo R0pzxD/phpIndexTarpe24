@@ -10,6 +10,9 @@
             <a href="?leht=muusika.php">JS Muusika</a>
         </li>
         <li>
+            <a href="?leht=matemaatilised.php">Matemaatilised funktsioonid</a>
+        </li>
+        <li>
             <a href="?leht=ajafunktsioonid.php">Ajafunktsioon</a>
         </li>
         <li>
