@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/joonis.css">
     <script src="js/joonisScript.js"></script>
     <script src="js/muusikajs.js"></script>
+    <link rel="stylesheet" href="style/nav.css">
 </head>
 <body>
 <?php
