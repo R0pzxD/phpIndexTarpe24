@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Joonistamine canvas elementiga</title>
+    <link rel="stylesheet" href="joonistamineStyle.css">
+    <script src="joonistamineScript.js"></script>
+    <script src="lipp.js"></script>
+</head>
+<body>
+<h1>Joonistamine JS-ga</h1>
+<canvas id="tahvel" width="300" height="250"></canvas>
+<br>
+<input type="button" value="Puhasta" onclick="puhasta()">
+<br>
+<input type="button" value="lumi" onclick="toggleSnow()">
+
+<input type="button" value="Kolmnurk" onclick="puu()">
+<br>
+<label for="raadius">R:</label>
+<input type="number" id="raadius" min="0" max="100" value="5" onchange="ring()">
+<input type="button" value="Ring" onclick="ring()">
+<br>
+
+
+
+
+
+</body>
+</html>
