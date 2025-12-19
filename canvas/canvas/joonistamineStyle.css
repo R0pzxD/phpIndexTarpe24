@@ -1,0 +1,48 @@
+canvas#tahvel{
+    background-color: darkblue;
+    border: 1px solid black;
+}
+/* Keskenda canvas ja kogu sisu */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Canvas */
+#tahvel {
+    border: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+/* Nupud */
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+input[type="button"], input[type="number"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    color: white;
+    background-color: #0077cc;
+    transition: all 0.3s ease;
+}
+
+input[type="button"]:hover, input[type="number"]:hover {
+    background-color: #005fa3;
+}
+
+input[type="number"] {
+    color: black; /* number input tekst must */
+    background-color: #eee; /* kergem number input */
+}
